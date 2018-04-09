@@ -23,6 +23,10 @@
      
 }
 
+#wrapper, #sidebar {
+  transition: ease .5s all;
+}
+
 #sidebar {
      //Aparencia do menu do sidebar
      background: #0984e3;
@@ -48,22 +52,12 @@
 
      .btn {
           display: inline-block;
-          color: honeydew;
+          color: #dfe6e9;
           background: #636e72;
           padding: 10px 20px;
           border-radius: 4px;
           border: 1px solid #2d3436;
-     }
-
-     .progress {
-          display: grid;
-          grid-template-columns: auto auto;
-          border: 2px solid #636e72;     
-     }
-
-
-     .bar {
-          padding: 10px;
-     }
+          cursor: pointer;
+        }
 
 }
